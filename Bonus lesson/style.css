@@ -1,0 +1,122 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-image: url('img/fond.png');
+}
+
+.clearfix:after {
+   visibility: hidden;
+   display: block;
+   font-size: 0;
+   content: " ";
+   clear: both;
+   height: 0;
+}
+.clearfix {
+    display: inline-block;
+}
+* html .clearfix {
+    height: 1%;
+}
+.clearfix {
+    display: block;
+}
+
+.container {
+  width: 100%;
+  height: 150px;
+  background-color: #9900ff;
+}
+.fa {
+  margin-right: 20px;
+}
+header .sign a {
+  color: white;
+  text-decoration: none;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+header p {
+  color: white;
+  font-size: 10px;
+}
+.icons li {
+  list-style: none;
+  display: inline-block;
+  color: white;
+}
+.icons a {
+  text-decoration: none;
+  border: 1px solid white;
+  color: #9900ff;
+  background-color: white;
+  font-size: 10px;
+  padding: 2px 8px 2px 8px;
+}
+.elipsis {
+  margin-left: 10px;
+}
+main {
+  position: absolute;
+  width: 100%;
+  height: 1200px;
+  background-color: #f2e6ff;
+}
+.main {
+  margin: 0 auto;
+  position: relative;
+  width: 800px;
+  margin-top: -50px;
+  height: 1000px;
+  background-color: white;
+}
+.main li {
+  list-style: none;
+  font-size: 10px;
+  display: inline;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.li1 ul {
+  text-align: center;
+}
+.tshirt {
+  width: 90%;
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.tshirt h2 {
+  border-bottom: 1.5px solid #ebebe0;
+}
+input {
+  border: none;
+  border-bottom: 1px solid #ebebe0;
+  font-size: 13px;
+}
+input:focus {
+  outline: none;
+}
+.input1 {
+  width: 100%;
+}
+.input2 {
+  color: #b8b894;
+  width: 100%;
+}
+.tshirt img {
+  width: 170px;
+  height: 250px;
+  margin-right: 40%;
+  margin-left: 40%;
+}
+.longtext {
+  color: #b8b894;
+  width: 100%;
+}
+.radio {
+  font-size: 10px;
+  display: block;
+}

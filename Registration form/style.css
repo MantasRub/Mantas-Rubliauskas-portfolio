@@ -1,0 +1,21 @@
+* {
+	box-sizing: border-box;
+}
+.container {
+	width: 800px;
+	margin: 0 auto;
+	border: 2px solid black;
+}
+body h1 {
+	margin: 10px 10px;
+	border-bottom: 1px solid black;
+}
+body label {
+	padding-right: 10px;
+}
+body form {
+	text-align: center;
+}
+body input {
+	margin: 10px;
+}

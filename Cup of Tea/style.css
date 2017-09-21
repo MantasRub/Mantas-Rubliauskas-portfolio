@@ -1,0 +1,265 @@
+* {
+	box-sizing: border-box;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear:both;
+}
+.container {
+	width: 75%;
+	margin: 0 auto;
+}
+body {
+	background-color: #F2F2F2;
+	width: 100%;
+	font-size: 0.9em;
+	font-family: 'Open Sans', sans-serif;
+}
+h1 {
+	font-family: 'Amaranth', sans-serif;
+}
+header {
+	background-image: url(img/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: #96B011;
+}
+.topline p {
+	padding: 10px;
+	text-align: center;
+	color: white;
+	background-color: rgba(135, 158, 13, 0.4);
+}
+.chart {
+	float: right;
+}
+.chart i {
+	opacity: 0.5;
+	font-size: 30px;
+}
+.cup a {
+	margin-top: 40px;
+	text-decoration: none;
+	color: white;
+}
+.cup img {
+	margin-top: 20px;
+	width: 120px;
+}
+.chart i {
+	padding-left: 5px;
+}
+.nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	padding: 20px 0;
+	margin: 0 -128px;
+}
+.nav li {
+	padding: 20px;
+}
+.nav a {
+	text-decoration: none;
+	color: white;
+}
+.nav li:hover {
+	transition: 1.5s;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.mainfoto img {
+	width: 100%;
+	display: block;
+}
+.mainfoto {
+	background-color: white;
+	position: relative;
+	margin-top: 30px;
+	padding: 10px;
+	box-shadow: 1px 1px 1px grey;
+}
+.comment {
+	top: 30px;
+	position: absolute;
+	width: 380px;
+	color: white;
+	padding: 15px;
+	line-height: 30px;
+	background-color: rgba(165, 174, 39, 0.8)
+}
+.comment h2 {
+	font-size: 1.4em;
+	font-family: 'Amaranth', sans-serif;
+}
+.tea h3 {
+	font-family: 'Amaranth', sans-serif;
+	padding: 10px;
+	font-size: 1.2em;
+}
+.tea {
+	background-color: white;
+	margin: 30px 0;
+	box-shadow: 1px 1px 1px grey;
+}
+.tea a {
+	text-decoration: none;
+}
+.tea ul {
+	display: flex;
+	justify-content: space-around;
+}
+.tea li {
+	margin: 15px;
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+}
+.tea img {
+	display: block;
+}
+.tea:hover li {
+	opacity: 0.5;
+}
+.tea li:hover {
+	opacity: 1;
+}
+.herbs h3 {
+	text-align: left;
+	font-size: 1.1em;
+	padding: 10px;
+	color: white;
+	background-color: #E26A6A;
+	font-family: 'Amaranth', sans-serif;
+}
+.herbs {
+	background-color: white;
+	width: 32%;
+	float: left;
+	box-shadow: 1px 1px 1px grey;
+}
+.herbs .logo {
+	width:  20px;
+	padding-right: 5px;
+}
+.herbs img {
+
+}
+.herb {
+	margin-bottom: 50px;
+}
+.herbs p {
+	text-align: center;
+	line-height: 30px;
+}
+.herbs span {
+	font-size: bold;
+}
+.middle {
+	margin: 0 2%;
+}
+.herbs .best-sellers {
+	background-color: #F4B350;
+}
+.herbs .coup {
+	background-color: #4ECDC4;
+}
+.herbs {
+	text-align: center;
+}
+footer {
+	background-image: url(img/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: #96B011;
+}
+.footernav a {
+	text-decoration: none;
+}
+.footernav ul {
+	display: flex;
+	justify-content: space-around;
+}
+.footernav li {
+	list-style: none;
+	display: inline-block;
+	padding-bottom: 20px;
+	opacity: 0.7;
+}
+.footernav a {
+	color: white;
+}
+.footernav {
+	background-color: rgba(135, 158, 13, 0.8);
+}
+.footernav i {
+	padding-top: 15px;
+	padding-bottom: 10px;
+	display: block;
+	text-align: center;
+	font-size: 20px;
+}
+.footernav li:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.bot {
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+.bot ul {
+	color: white;
+	line-height: 25px;
+	font-size: 0.8em;
+	opacity: 0.8;
+}
+.bot h3 {
+	font-size: 1em;
+	color: white;
+	padding: 10px 0;
+}
+@media (max-width: 932px) {
+	.nav ul {
+		display: block;
+		text-align: center;
+		padding: 0;
+	}
+	.nav li {
+		padding: 10px;
+	}
+	.cup1 img {
+		margin-top: 0;
+	}
+	.cup .chart {
+		margin-top: 0;
+	}
+	.comment {
+		position: relative;
+		top: 0;
+		width: 100%;
+		padding: 10px 0 10px 15px;
+		margin-bottom: 12px;
+	}
+	.tea ul {
+		display: block;
+	}
+	.tea li {
+		width: 100%;
+	}
+	.tea img {
+		margin: 0 auto;	
+	}
+	.herbs {
+		float: none;
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.middle {
+		margin: 0;
+		margin-bottom: 30px;
+	}
+	.bot {
+		width: 100%;
+	}
+}

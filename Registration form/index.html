@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forma</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Registration form</h1>
+		<form>
+			<label for="surname">Username</label><input required min="5" max="12" type="text" name="surname" id="surname" placeholder="required, 5-12 characters"><br>
+			<label for="password">Password</label><input required pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$" min="7" max="12" type="password" name="password" id="password" placeholder="required, 7-12 characters"><br>
+			<label for="name">Name</label><input required pattern="[A-Za-z]{3}" type="text" name="name" id="name" placeholder="required, letters only"><br>
+			<label for="address">Address</label><input type="text" name="address" id="address" placeholder="optional"><br>
+			<label for="country">Country</label><select required id="country" placeholder="required"><option>Lithuania</option>
+			<option>Norway</option>
+			<option>Unated States of America</option>t</select><br>
+			<label for="zipcode">ZIP Code</label><input required pattern="[0-9]+" type="text" name="zipcode" id="zipcode" placeholder="required, numbers only"><br>
+			<label for="email">Email</label><input required type="text" name="email" id="email" placeholder="required, valid email only"><br>
+			<label for="male">Sex<input required type="radio" name="sex" id="male">Male</label>
+			<label for="female"><input type="radio" name="sex" id="female">Female</label><br>
+			<label for="english">Language<input type="checkbox" name="english" id="english">English</label>
+			<label for="other"><input type="checkbox" name="other" id="other">Other</label><br>
+			<label for="about">About</label>
+			<textarea rows="10" cols="30" id="about" placeholder="optional"></textarea><br>
+			<input type="submit" name="submit">
+			<input type="reset" name="reset">
+		</form>
+	</div>
+	
+
+
+
+
+	<script type="text/javascript" src="javas.js"></script>
+</body>
+</html>

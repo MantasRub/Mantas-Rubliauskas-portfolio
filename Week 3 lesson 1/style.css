@@ -1,0 +1,36 @@
+.nav2 li {
+	display: inline;
+	list-style: none;
+	background-color: #32AED4;
+	border: 1px solid #32AED4;
+	border-radius: 3px;
+	padding: 5px 0;
+	margin: 0 20px;
+}
+.button {
+	margin-bottom: 15px;
+}
+.pa {
+	line-height: 20px;
+}
+img {
+	padding-bottom: 15px;
+	width: 100%;
+	padding-bottom: 15px 15px;
+}
+figcaption {
+	text-align: right;
+	padding-right: 25px;
+	color: gray;
+}
+figcaption::before {
+	content: "- ";
+}
+.border {
+	border-left: 2px solid gray;
+	padding-left: 15px;
+	padding-top: 5px;
+}
+footer {
+	margin-top: 15px;
+}

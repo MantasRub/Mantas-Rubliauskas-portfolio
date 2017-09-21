@@ -1,0 +1,173 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image:url("img/fond.png");
+	font-size: 16px;
+	color: #666;
+}
+
+.clearfix:after {
+   visibility: hidden;
+   display: block;
+   font-size: 0;
+   content: " ";
+   clear: both;
+   height: 0;
+}
+.clearfix {
+    display: inline-block;
+}
+* html .clearfix {
+    height: 1%;
+}
+.clearfix {
+    display: block;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Oswald', sans-serif;
+	margin-top: 0;
+	margin-left: 0;
+	margin-bottom: 20px;
+	margin-right: 0;
+	color: #B8CB21;
+	font-size: 24px;
+}
+
+.container {
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header {
+	background-color: #B8CB21;
+	padding: 20px 25px;
+}
+
+.logo {
+	float: left;
+
+}
+
+.nav {
+	float: right;
+	margin-top: 50px;
+
+}
+.nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	list-style-position: inside;
+}
+
+.nav li {
+	float: left;
+	margin-left: 5px;
+}
+/*navigacijos isdestymas*/
+.nav a {
+	font-family: 'Oswald', sans-serif;
+	padding: 5px 10px;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #2c4726;
+	font-size: 20px;
+	font-weight: bold;
+}
+main {
+	background-color: white;
+	padding: 20px 25px;
+}
+
+.article-left {
+	width: 35%;
+	float: left;
+	
+}
+
+.article-right {
+	width: 65%;
+	float: right;
+}
+/*read more migtukas*/
+article footer {
+	text-align: right;
+}
+.btn {
+	border: 1px solid #B8CB21;
+	text-decoration: none;
+	color: white;
+	background-color: #B8CB21;
+	border-width: 1px;
+	padding: 10px 15px;
+	display: inline-block;
+
+}
+
+section img {
+	width: 100%;
+	margin-bottom: 10px;
+
+}
+
+.article-right article img {
+	width: 40%;
+	margin-right: 10px;
+	float: left;
+}
+
+.article-left article {
+	padding-right: 25px;
+	margin-right: -1px;
+	border-right: 1px solid black;
+}
+
+.article-right article {
+	padding-left: 25px;
+	border-left: 1px solid black;
+}
+.copy {
+	text-align: center;
+	padding: 10px 0;
+}
+
+.new-art-right {
+	width: 50%;
+	float: left;
+}
+.new-art-left {
+	width: 50%;
+	float: left;
+}
+
+.fa {
+	color: #666;
+	margin-right: 10px;
+
+}
+
+.para {
+	color: blue;
+}
+
+h2 .fa-home {
+	color: #B8CB21;
+	margin-right: 10px;
+
+}
+input {
+	border-radius: 7px;
+}
+.siustis {
+	display: block;
+	margin-bottom: 5px;
+}
+article img {
+	border-radius: 100%;
+	float: left;
+}

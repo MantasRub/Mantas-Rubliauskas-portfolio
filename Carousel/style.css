@@ -1,0 +1,43 @@
+body {
+	background-image: url(Carousel/img/concrete_seamless.png)
+}
+.container {
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+}
+.header .fa {
+	padding-right: 8px; 
+}
+.header a {
+	text-decoration: none;
+}
+.hide {
+	display: none;
+}
+.eilute {
+	margin-top: 10px;
+	text-align: center;
+}
+.img-btn li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+}
+.img-btn .fa {
+	text-align: center;
+}
+.img {
+	text-align: center;
+}
+#toolbar i {
+	padding: 3px;
+}
+.img img {
+	border: 1px solid gray;
+	padding: 5px;
+	border-radius: 8px;
+	width: 600px;
+	height: 400px;
+	transform: rotate(-4deg);
+}

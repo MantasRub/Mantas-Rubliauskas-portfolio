@@ -1,0 +1,16 @@
+body {
+	background:;
+}
+
+ul.main-navigation2 li {
+	list-style: none;
+	float: left;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+.clearfix::after {
+	content: '';
+	clear: both;
+	display: block;
+}

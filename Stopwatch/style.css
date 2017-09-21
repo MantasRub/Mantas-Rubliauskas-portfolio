@@ -1,0 +1,52 @@
+body {
+	background: black;
+	margin: 0;
+	padding: 0;
+	text-align:  auto;
+}
+#clock {
+	background: url("Stopwatch/css/clock.jpg") no-repeat top left;
+	padding: 300px 0 430px 840px;
+}
+.hand {
+	background: url("Stopwatch/css/hands.png") no-repeat top left;
+	position: absolute;
+	// width: 265px;
+	height: 265px;
+	// rotation: 25;
+	width: 30px;
+	text-align: center;
+	color: white;
+	transition: transform .1s;
+}
+.hand.minutes {
+	background-position: -60px 0;
+}
+.hand.hundredth {
+	background-position: 0 0;
+}
+.hand.seconds {
+	background-position: -30px 0;
+}
+nav {
+	margin: 30px auto;
+	float: left;
+}
+nav ul li {
+	display: inline;
+}
+nav button {
+	background 0;
+	border: 2px solid white;
+	border-radius: 20px;
+	color: white;
+	padding: 15px;
+	margin-right: 20px;
+	transition: background-color .5s;
+}
+nav button:focus {
+	outline: 0;
+}
+nav button:hover {
+	background-color: rgba(256, 256, 256, .4);
+}

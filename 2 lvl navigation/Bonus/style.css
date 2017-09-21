@@ -1,0 +1,50 @@
+body {
+	background-color: #404040;
+	color: #808080;
+
+}
+.container {
+	margin-top: 1%;
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.collum {
+	width: 30%;
+	height: 450px;
+	border: 2px solid #808080;
+	text-align: center;
+	float: left;
+}
+.collum {
+	border: 2px solid #808080;
+}
+.fa {
+	font-size: 30px;
+	color: #66c20a;
+	margin-top: 10px;
+}
+ul > li:nth-child(3) {
+	color: #66c20a;
+}
+ul li {
+	margin: 20px;
+	list-style: none;
+}
+h2 {
+	color: white;
+	padding: 20px 0 20px 0;
+	font-weight: bold;
+}
+a {
+	border: 1px solid #66c20a;
+	border-radius: 20px;
+	background-color: #66c20a;
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px 10px 20px;
+}
+.container > .collum:hover {
+	border: 2px solid #66c20a;
+
+}

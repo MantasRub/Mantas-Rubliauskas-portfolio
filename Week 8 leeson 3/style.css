@@ -1,0 +1,10 @@
+canvas {
+		border: 1px dashed black;
+		margin: 40px auto;
+		display: block;
+	}
+body {
+	background-image: url(wall.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}

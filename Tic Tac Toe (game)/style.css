@@ -1,0 +1,17 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-image: url(XO.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+table td {
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	font-size: 60px;
+	border: 2px solid white;
+	color: white;
+}

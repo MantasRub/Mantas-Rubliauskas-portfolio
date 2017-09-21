@@ -1,0 +1,68 @@
+body {
+	background-image: url(wall.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1 {
+	text-align: center;
+	color: maroon;
+}
+canvas {
+	border: 1px solid black;
+	margin: 40px auto;
+	display: block;
+	background-color: white;
+	// opacity: 0.9;
+}
+.fa-paint-brush {
+	padding-right: 10px;
+	color: maroon;
+}
+.line {
+	border-top: 1px solid white;
+	color: black;
+	padding-top: 20px;
+	padding-left: 0;
+}
+ul {
+	list-style: none;
+}
+ul i {
+	color: black;
+}
+button {
+	margin: 0 2px;
+}
+.colors {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.black {
+	background-color: black;
+}
+.maroon {
+	background-color: #5C2121;
+}
+.red {
+	background-color: #B9121B;
+}
+.yellow {
+	background-color: #FFBD07;
+}
+.green {
+	background-color: #13B813;
+}
+.seagreen {
+	background-color: #029E9A;
+}
+.blue {
+	background-color: #0378A6;
+}
+label {
+	margin: 10px 0;
+	min-width: 80px;
+}

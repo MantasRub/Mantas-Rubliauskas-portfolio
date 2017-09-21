@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1><i class="fa fa-paint-brush" aria-hidden="true"></i>Magic Drawing Board!</h1>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-9">
+				<canvas id="canvas" width="900" height="500"></canvas>
+			</div>
+			<div class="col-md-3">
+				<canvas id="picker" width="200" height="500"></canvas>
+			</div>
+		</div>
+		<div class="line">
+			<ul>
+				<li>
+					<label>Tools</label>
+					<button><i class="fa fa-eraser pen-color" data-color="white" aria-hidden="true"></i></button>
+					<button><i class="fa fa-trash trash" aria-hidden="true"></i></button>
+					<button><i class="fa fa-eyedropper pcker" aria-hidden="true"></i></button>
+				</li>
+				<li>
+					<label>Colors</label>
+					<div class="pen-color black colors" data-color="black"></div>
+					<div class="pen-color maroon colors" data-color="#5C2121"></div>
+					<div class="pen-color red colors" data-color="#B9121B"></div>
+					<div class="pen-color yellow colors" data-color="#FFBD07"></div>
+					<div class="pen-color green colors" data-color="#13B813"></div>
+					<div class="pen-color seagreen colors" data-color="#029E9A"></div>
+					<div class="pen-color blue colors" data-color="#0378A6"></div>
+				</li>
+				<li>
+					<label>Thickness</label>
+					<button class="pen-thickness" data-thickness="1">Thin</button>
+					<button class="pen-thickness" data-thickness="3">Normal</button>
+					<button class="pen-thickness" data-thickness="6">Thick</button>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="JS/pen/Pen.js"></script>
+	<script type="text/javascript" src="JS/program/Program.js"></script>
+	<script type="text/javascript" src="JS/colorpicker/ColorPicker.js"></script>
+	<script type="text/javascript" src="JS/canvas/Canvas.js"></script>
+	<script type="text/javascript" src="JS/main.js"></script>
+</body>
+</html>

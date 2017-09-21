@@ -1,0 +1,63 @@
+ul.main-navigation2 li {
+	list-style: none;
+	float: left;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+.clearfix::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+
+
+#color .red {
+	color: red;
+}
+#color .blue {
+	color:blue;
+}
+#color .green{
+	color:green;
+}
+#background .red{
+	background-color :red;
+}
+
+#background .red{
+	background-color :red;
+}
+
+.main-navigation2 {
+	background: red;
+}
+
+.header {
+	background: orange;
+	width: 100%;
+}
+
+.right-side {
+	width: 50%;
+	float :left;
+	background: green;
+}
+
+
+.left-side {
+	width: 50%;
+	float :left;
+	background: blue;
+}
+
+
+.holder {
+	background: teal;
+}
+
+.footer {
+	background: green;
+	width: 100%;
+}
